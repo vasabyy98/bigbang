@@ -1,9 +1,27 @@
 body{
 background-color: rgb(206, 230, 252);
-width: 95%;
 }
 
+#disp{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10em 5em;
+}
 .first{
     background: bisque;
-    margin:10em;
+    padding: 0.5em;
+    width: 20%;
+    border-radius: 10px 30px;
+}
+.second{
+    background-color: rgb(245, 191, 126);
+    padding: 0.5em;
+    width: 20%;
+    border-radius: 10px 30px;
+}
+.third{
+    background-color: rgb(250, 175, 84);
+    padding: 0.5em;
+    width: 20%;
+    border-radius: 10px 30px;
 }
